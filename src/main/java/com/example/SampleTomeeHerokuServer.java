@@ -23,6 +23,7 @@ public class SampleTomeeHerokuServer {
         p.put("myDS.JdbcDriver", "org.postgresql.Driver");
         p.put("myDS.JdbcUrl", readUrlJdbc());
         p.setProperty("httpejbd.port", getServerPort());
+        p.setProperty("httpejbd.bind", "0.0.0.0");
         return p;
     }
 
