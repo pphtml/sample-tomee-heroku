@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/sample-tomee-heroku-1.0.0-SNAPSHOT.jar
+web: java -jar target/sample-tomee-heroku-1.0.0-SNAPSHOT.jar
